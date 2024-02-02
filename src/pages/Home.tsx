@@ -1,8 +1,10 @@
+import React from "react";
 
-export default function Articles(){
-    return <>
+export default function Home() {
+  return (
     <div>
-        HomePage
+      <h1 className="text-lg text-red-600">Home</h1>
+      <p>Welcome to the Home page!</p>
     </div>
-    </>
+  );
 }
