@@ -57,7 +57,7 @@ export default function Footer() {
           <p className="font-bold flex gap-2 w-fit">
             Email:
             <span className="font-normal">
-              <a href="mailto:contact@kuhackfest.com">techrise@gmail.com</a>
+              <a href="mailto:contact@kuhackfest.com">urtechrise@gmail.com</a>
             </span>
           </p>
           
@@ -68,7 +68,7 @@ export default function Footer() {
       
         <div className="flex flex-col gap-4 [&amp;>*]:text-center justify-center">
           <h2 className="text-2xl font-bold items-start">Event Summary</h2>
-          <p>Date: 216th March - 17th March 2023</p>
+          <p>Date: 16th March - 17th March 2024</p>
         </div>
       </div>
     </footer>

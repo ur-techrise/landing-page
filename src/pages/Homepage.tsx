@@ -1,12 +1,18 @@
+import Logo from "../assets/logo2.png";
+import Navbar from "../layouts/nav-bar";
+
 export default function Homepage() {
   return (
     <div className="m-0 w-full p-0 ">
-      <div>
+      <Navbar styles="mb-40" />
+      <div className="mt-10">
         <div className="lg:block z-10 bg-gradient-to-br from-blue-400 via-blue-300 via-light-blue-200 to-white h-screen w-screen absolute"></div>
       </div>
       <header className="-ml-2 z-30 relative  h-screen grid place-items-center place-content-center bg-[url('/hero-bg.svg')] bg-cover bg-center font-bold">
-        <img src="/full_logo.png" alt="Techrise Hackthon Logo" />
-        <h1 className="text-[clamp(2.5rem,5vw,7rem)] text-[#13274F] font-extrabold">
+        <div className="w-60 -mt-28 rounded-full">
+          <img src={Logo} alt="Techrise Hackthon Logo" />
+        </div>
+        <h1 className="text-[clamp(2.5rem,5vw,7rem)] -mt-3 text-[#13274F] font-extrabold">
           TechRise Hackathon 2024
         </h1>
         <h2 className="text-[clamp(1.5rem,2vw,5rem)] text-[#13274F] font-semibold pb-4">
@@ -79,7 +85,7 @@ export default function Homepage() {
           <a
             className="py-3 rounded-lg flex items-center justify-center hover:opacity-80 gap-4 transition-all px-8 bg-btnLight text-white"
             target="_blank"
-            href="mailto:techrise@gmail.com?subject=Sponsorship Inquiry"
+            href="mailto:urtechrise@gmail.com?subject=Sponsorship Inquiry"
           >
             Sponsor Us
           </a>
