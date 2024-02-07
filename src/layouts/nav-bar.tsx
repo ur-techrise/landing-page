@@ -9,7 +9,7 @@ interface Props {
 let Links = [
   { name: "Home", link: "/" },
   { name: "Schedule", link: "/schedule" },
-  { name: "Team", link: "/team" },
+  { name: "FAQ", link: "/faq" },
   // { name: "Contact", link: "/contact" },
 ];
 

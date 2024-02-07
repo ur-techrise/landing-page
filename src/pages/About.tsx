@@ -46,7 +46,6 @@ export default function About() {
       <Categories />
       <Prizes />
       <Sponsors />
-      <Faq />
       {/* <section
         aria-labelledby="resources"
         className="max-w-[var(--max-width)] mx-auto p-2"
