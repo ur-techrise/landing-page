@@ -62,13 +62,13 @@ export default function Footer() {
           </p>
           
           <p>
-            All Rights Reserved © <a href="/">Techrise Hackathon </a>
+            All Rights Reserved © <a href="/">Techrise Hacks </a>
           </p>
         </div>
       
         <div className="flex flex-col gap-4 [&amp;>*]:text-center justify-center">
           <h2 className="text-2xl font-bold items-start">Event Summary</h2>
-          <p>Date: 16th March - 17th March 2024</p>
+          <p>Date: 30th March 2024</p>
         </div>
       </div>
     </footer>

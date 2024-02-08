@@ -3,10 +3,10 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 interface Props {
-  styles?: any;
+  styles?: string;
 }
 
-let Links = [
+const Links = [
   { name: "Home", link: "/" },
   { name: "Schedule", link: "/schedule" },
   { name: "FAQ", link: "/faq" },
@@ -14,7 +14,7 @@ let Links = [
 ];
 
 const Nav = ({ styles }: Props) => {
-  let [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
 
   useEffect(() => {

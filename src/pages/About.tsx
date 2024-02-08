@@ -1,4 +1,3 @@
-import Faq from "./Faqs";
 import Logo from "../assets/logo-text-blue.png";
 
 import Categories from "./Categories";
@@ -22,7 +21,7 @@ export default function About() {
           <div className="flex content-center items-center flex-grow h-65 mx-20 my-12 gap-6">
             <div className="grid undefined gap-6">
               <h3 className="text-2xl xl:text-4xl lg:text-3xl font-bold">
-                What is TechRise Hackathon?
+                What is TechRise Hacks?
               </h3>
               <p className="text-base xl:text-xl max-w-[80ch]">
                 Techrise is a hackathon organized by student

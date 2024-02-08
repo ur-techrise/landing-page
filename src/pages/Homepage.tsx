@@ -3,7 +3,7 @@ import Navbar from "../layouts/nav-bar";
 
 export default function Homepage() {
   return (
-    <div className="m-0 w-full p-0 ">
+    <div className="m-0 w-full p-0 overflow-x-hidden ">
       <Navbar styles="mb-40" />
       <div className="mt-10">
         <div className="lg:block z-10 bg-gradient-to-br from-blue-400 via-blue-300 via-light-blue-200 to-white h-screen w-screen absolute"></div>
@@ -13,10 +13,10 @@ export default function Homepage() {
           <img src={Logo} alt="Techrise Hackthon Logo" />
         </div>
         <h1 className="text-[clamp(2.5rem,5vw,7rem)] -mt-3 text-[#13274F] font-extrabold">
-          TechRise Hackathon 2024
+          TechRise Hacks 2024
         </h1>
         <h2 className="text-[clamp(1.5rem,2vw,5rem)] text-[#13274F] font-semibold pb-4">
-          16th March - 17 March 2024
+          30th March 2024
         </h2>
         <nav
           className="flex items-center fixed inset-0 justify-center bg-[var(--bg-dark)] transition-all text-2xl font-bold -translate-y-full 2xl:translate-y-0 w-full z-10
@@ -30,7 +30,7 @@ export default function Homepage() {
               className="pointer-events-none  hidden h-full absolute py-2 px-4 top-0 left-0"
             />
           </a>
-          <ul className="flex h-3/5 justify-evenly 2xl:flex-row 2xl:gap-8 p-2 flex-col [&amp;>li]:opacity-100 [&amp;>li]:pointer-events-auto">
+          {/* <ul className="flex h-3/5 justify-evenly 2xl:flex-row 2xl:gap-8 p-2 flex-col [&amp;>li]:opacity-100 [&amp;>li]:pointer-events-auto">
             <li className="hover:opacity-70 text-center">
               <a href="/#about">About</a>
             </li>
@@ -52,13 +52,11 @@ export default function Homepage() {
             <li className="hover:opacity-70 text-center">
               <a href="/#faqs">FAQs</a>
             </li>
-            <li className="hover:opacity-70 text-center">
-              <a href="/#resources">Resources</a>
-            </li>
+    
             <li className="hover:opacity-70 text-center">
               <a href="/#sponsors">Sponsors</a>
             </li>
-          </ul>
+          </ul> */}
         </nav>
         <nav
           className="flex items-center fixed inset-0 justify-center bg-[var(--bg-dark)] transition-all text-2xl font-bold -translate-y-full 2xl:translate-y-0 w-full z-10
@@ -77,11 +75,10 @@ export default function Homepage() {
           <a
             className="py-3 px-6 rounded-lg flex items-center justify-center hover:opacity-80 gap-4 transition-all bg-btnLight text-white"
             target="_blank"
-            href=""
+            href="https://forms.office.com/r/fJuBhY7hm0"
           >
-            Apply
+            Register
           </a>
-
           <a
             className="py-3 rounded-lg flex items-center justify-center hover:opacity-80 gap-4 transition-all px-8 bg-btnLight text-white"
             target="_blank"
