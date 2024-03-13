@@ -1,4 +1,4 @@
-import Logo from "../assets/logo-text-blue.png";
+import Logo from "../assets/logoWhite.png";
 
 import Categories from "./Categories";
 import Prizes from "./Prizes";
@@ -20,10 +20,10 @@ export default function About() {
         <div>
           <div className="flex content-center items-center flex-grow h-65 mx-20 my-12 gap-6">
             <div className="grid undefined gap-6">
-              <h3 className="text-2xl xl:text-4xl lg:text-3xl font-bold">
+              <h3 className="text-2xl xl:text-3xl lg:text-3xl font-bold">
                 What is TechRise Hacks?
               </h3>
-              <p className="text-base xl:text-xl max-w-[80ch]">
+              <p className="text-base xl:text-lg max-w-[80ch]">
                 Techrise is a hackathon organized by student
                 associations at the University of Rwanda, aiming to ignite
                 student enthusiasm for technology by addressing various
@@ -34,9 +34,8 @@ export default function About() {
             </div>
             <img
               src={Logo}
-              
               alt="logos"
-              className="object-scale-down max-h-full drop-shadow-md rounded-md m-auto hidden lg:block"
+              className=" w-[38rem] drop-shadow-md rounded-md  hidden lg:block"
             />
           </div>
         </div>

@@ -1,4 +1,4 @@
-import Logo from "../assets/logo2.png";
+import Logo from "../assets/Logo3.png";
 import Navbar from "../layouts/nav-bar";
 
 export default function Homepage() {
@@ -9,10 +9,10 @@ export default function Homepage() {
         <div className="lg:block z-10 bg-gradient-to-br from-blue-400 via-blue-300 via-light-blue-200 to-white h-screen w-screen absolute"></div>
       </div>
       <header className="-ml-2 z-30 relative  h-screen grid place-items-center place-content-center bg-[url('/hero-bg.svg')] bg-cover bg-center font-bold">
-        <div className="w-60 -mt-28 rounded-full">
+        <div className="-mt-48 w-80 rounded-full">
           <img src={Logo} alt="Techrise Hackthon Logo" />
         </div>
-        <h1 className="text-[clamp(2.5rem,5vw,7rem)] -mt-3 text-[#13274F] font-extrabold">
+        <h1 className="text-[clamp(2.5rem,5vw,7rem)] -mt-36 text-[#13274F] font-extrabold">
           TechRise Hacks 2024
         </h1>
         <h2 className="text-[clamp(1.5rem,2vw,5rem)] text-[#13274F] font-semibold pb-4">
