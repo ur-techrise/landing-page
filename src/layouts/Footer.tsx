@@ -68,7 +68,7 @@ export default function Footer() {
       
         <div className="flex flex-col gap-4 [&amp;>*]:text-center justify-center">
           <h2 className="text-2xl font-bold items-start">Event Summary</h2>
-          <p>Date: 30th March 2024</p>
+          <p>Date: 19th April 2024</p>
         </div>
       </div>
     </footer>

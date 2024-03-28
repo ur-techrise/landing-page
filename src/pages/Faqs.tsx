@@ -18,7 +18,7 @@ export default function Faq() {
     {
       question: "When and where will the hackathon take place?",
       answer:
-        "Techrise Hacks will take place in March 2024 at the University of Rwanda, KIST campus. It will be fully in-person this 2024 season!",
+        "Techrise Hacks will take place in April 2024 at the University of Rwanda, KIST campus. It will be fully in-person this 2024 season!",
     },
     {
       question: "Can I work on my project before the hackathon?",

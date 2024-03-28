@@ -16,7 +16,7 @@ export default function Homepage() {
           TechRise Hacks 2024
         </h1>
         <h2 className="text-[clamp(1.5rem,2vw,5rem)] text-[#13274F] font-semibold pb-4">
-          30th March 2024
+          19th April 2024
         </h2>
         <nav
           className="flex items-center fixed inset-0 justify-center bg-[var(--bg-dark)] transition-all text-2xl font-bold -translate-y-full 2xl:translate-y-0 w-full z-10
