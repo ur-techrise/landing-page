@@ -11,6 +11,10 @@ export default function Faq() {
         "While coding skills are valued, we welcome participants of all proficiency levels to join us. We offer introductory workshops and mentor support to ensure everyone has the necessary knowledge. Additionally, there are alternative tracks available that do not require coding expertise.",
     },
     {
+      question: "Who is allowed to participate?",
+      answer: "Students in  the Univeristy of Rwanda.",
+    },
+    {
       question: "I have more questions, how and where can I ask them?",
       answer:
         "email us at urtechrise@gmail.com ! We're always ready to answer all your questions.",
