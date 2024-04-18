@@ -24,12 +24,10 @@ export default function About() {
                 What is TechRise Hacks?
               </h3>
               <p className="text-base xl:text-lg max-w-[80ch]">
-                Techrise is a hackathon organized by student
-                associations at the University of Rwanda, aiming to ignite
-                student enthusiasm for technology by addressing various
-                challenges. Through this event, we invite all participants to
-                explore and champion solutions, fostering innovation and
-                empowerment through code.
+                Techrise is aiming to ignite enthusiasm for technology by
+                addressing various challenges. Through this event, we invite all
+                participants to explore and champion solutions, fostering
+                innovation and empowerment through code.
               </p>
             </div>
             <img

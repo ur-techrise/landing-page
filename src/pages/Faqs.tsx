@@ -12,18 +12,18 @@ export default function Faq() {
     },
     {
       question: "Who is allowed to participate?",
-      answer: "Students in  the Univeristy of Rwanda.",
+      answer: "Everyone.",
     },
     {
       question: "I have more questions, how and where can I ask them?",
       answer:
         "email us at urtechrise@gmail.com ! We're always ready to answer all your questions.",
     },
-    {
-      question: "When and where will the hackathon take place?",
-      answer:
-        "Techrise Hacks will take place in April 2024 at the University of Rwanda, KIST campus. It will be fully in-person this 2024 season!",
-    },
+    // {
+    //   question: "When and where will the hackathon take place?",
+    //   answer:
+    //     "Techrise Hacks will take place in April 2024 at the University of Rwanda, KIST campus. It will be fully in-person this 2024 season!",
+    // },
     {
       question: "Can I work on my project before the hackathon?",
       answer:
